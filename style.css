@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #BFD7E4;
+}
+
+body, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  margin: auto;  
+}
+
+header {
+  width: 1440px;
+  height: 465px;
+  
+  background: #293241;
+  mix-blend-mode: normal;
+
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  /* border: 2px solid white; */
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  
+  color: #FFFFFF;
+
+  margin-top: 110px;
+}
+
+header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+
+  color: #FFFFFF;
+}
+
+header img {
+  /* border: 2px solid white; */
+  margin-bottom: 30px;
+}
+
+.header-title {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  height: 133px;
+  left: 1095px;
+  top: 465px;
+
+  background: #F67669;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.header-title h2 {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  
+  color: #FFFFFF;
+}
+
+form {
+  width: 750px;
+  height: 1075px;
+  left: 345px;
+  top: 463px;
+
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+}
