@@ -108,6 +108,35 @@ fieldset {
   margin: auto;
 }
 
+.fieldset-wrapper legend {
+  /* border: 2px solid red; */
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+
+  text-align: center;
+
+  color: #253B51;
+
+  border-bottom: 1px solid #E6E6F0;
+
+  margin-bottom: 30px;
+}
+
+.fieldset-wrapper label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+
+  margin-bottom: 8px;
+}
+
 .line-col-2 {
   display: flex;
   gap: 20px;
@@ -143,4 +172,44 @@ fieldset {
   height: 55px;
   font-size: 16px;
   padding-inline: 10px;
+}
+
+select {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 50%;
+  height: 55px;
+}
+
+textarea {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 165px;
+  padding: 10px;
+}
+
+.input-checkbox {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 8px;  
+}
+
+.input-checkbox input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 24px;
+  height: 24px;
+}
+
+.input-checkbox label {
+  margin-bottom: 0;
 }
