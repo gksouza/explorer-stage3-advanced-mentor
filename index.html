@@ -101,7 +101,6 @@
               <input
               type="checkbox"
               id="checkbox-wrapper"
-              required
               />
               <label for="checkbox-wrapper">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
             </div>            
@@ -110,41 +109,48 @@
       </fieldset>
 
       <fieldset>
-        <div class="date-col-3">
-          <div class="fieldset-wrapper">
-            <legend>Agendando próxima mentoria</legend>
-            <div class="input-wrapper">
-              <label for="date-begin">Data<span>(DD/MM/AAAA)</span></label>
-              <input
-                type="date"
-                name="date-begin"
-                id="date-begin"
-                required
-              />              
-            </div>
+        <div class="fieldset-wrapper">
+          <legend>Agendando próxima mentoria</legend>
 
+          <div class="date-col-3">
             <div class="input-wrapper">
-              <label for="time-begin">Das</label>
-              <input
-                type="time"
-                name="time-begin"
-                id="time-begin"
-                required
-              />              
-            </div>
+                <label for="date-begin">Data<span>(DD/MM/AAAA)</span></label>
+                <input
+                  type="date"
+                  name="date-begin"
+                  id="date-begin"
+                  required
+                />              
+              </div>
 
-            <div class="input-wrapper">
-              <label for="time-end">Até</label>
-              <input
-                type="time"
-                name="time-end"
-                id="time-end"
-                required
-              />
-            </div>
+              <div class="input-wrapper">
+                <label for="time-begin">Das</label>
+                <input
+                  type="time"
+                  name="time-begin"
+                  id="time-begin"
+                  required
+                />              
+              </div>
+
+              <div class="input-wrapper">
+                <label for="time-end">Até</label>
+                <input
+                  type="time"
+                  name="time-end"
+                  id="time-end"
+                  required
+                />
+              </div>
           </div>
-        </div>
+        </div>         
       </fieldset>
+
+      <div class="btn-save">
+        <button>
+          Salvar
+        </button>
+      </div>
       
     </form>
   </div>
