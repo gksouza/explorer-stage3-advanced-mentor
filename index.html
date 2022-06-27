@@ -94,22 +94,58 @@
                 name="event-feedback"
                 id="event-feedback"></textarea>
             </div>
+          </div>
+
+          <div class="checkbox-mentor">
+            <div class="checkbox-wrapper">
+              <input
+              type="checkbox"
+              id="checkbox-wrapper"
+              required
+              />
+              <label for="checkbox-wrapper">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+            </div>            
+          </div>            
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="date-col-3">
+          <div class="fieldset-wrapper">
+            <legend>Agendando próxima mentoria</legend>
+            <div class="input-wrapper">
+              <label for="date-begin">Data<span>(DD/MM/AAAA)</span></label>
+              <input
+                type="date"
+                name="date-begin"
+                id="date-begin"
+                required
+              />              
+            </div>
 
             <div class="input-wrapper">
-              <div class="input-checkbox">
-                <input
-                  type="checkbox"
-                  name="event-checkbox"
-                  id="event-checkbox"
-                  required
-                />
-                <label for="event-checkbox">Todas as minhas dúvidas
-                  foram esclarecidas durante a mentoria.</label>
-              </div>
+              <label for="time-begin">Das</label>
+              <input
+                type="time"
+                name="time-begin"
+                id="time-begin"
+                required
+              />              
+            </div>
+
+            <div class="input-wrapper">
+              <label for="time-end">Até</label>
+              <input
+                type="time"
+                name="time-end"
+                id="time-end"
+                required
+              />
             </div>
           </div>
         </div>
       </fieldset>
+      
     </form>
   </div>
 </body>
